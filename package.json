@@ -1,0 +1,21 @@
+{
+  "name": "23-theme",
+  "displayName": "23 Theme",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "23 Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/23 Theme-color-theme.json"
+      }
+    ]
+  }
+}
