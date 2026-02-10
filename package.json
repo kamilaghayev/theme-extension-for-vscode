@@ -3,6 +3,13 @@
   "displayName": "23 Theme",
   "description": "",
   "version": "0.0.1",
+  "publisher": "kamilizundef",
+  "keywords": [
+    "theme",
+    "23",
+    "23 Theme",
+    "dark theme"
+  ],
   "engines": {
     "vscode": "^1.109.0"
   },
