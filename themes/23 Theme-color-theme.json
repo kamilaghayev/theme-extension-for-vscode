@@ -3,11 +3,11 @@
   "$schema": "vscode://schemas/color-theme",
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "comments": "#00a584",
-    "numbers": "#fab387",
-    "functions": "#ded6b9",
-    "strings": "#f0a7bf",
-    "variables": "#c2ebff",
+    "comments": "#2b8a6e",
+    "numbers": "#f19a62",
+    "functions": "#d2c4a3",
+    "strings": "#fa9fbc",
+    "variables": "#b9e7f7"
   },
   "colors": {
     "editor.background": "#050505",
@@ -34,14 +34,14 @@
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#00a584"
+        "foreground": "#2b8a6e"
       }
     },
     {
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#c2ebff"
+        "foreground": "#b9e7f7"
       }
     },
     {
@@ -60,41 +60,44 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["keyword","storage.modifier"],
+      "scope": ["keyword", "storage.modifier"],
       "settings": {
-        "foreground": "#718ebb"
+        "foreground": "#25beff"
       }
     },
     {
       "name": "let, var, const",
       "scope": ["storage.type"],
       "settings": {
-        "foreground": "#718ebb"
+        "foreground": "#25beff"
       }
     },
-	{
-  "name": "Import / From keywords",
-  "scope": [
-    "keyword.control.import",
-    "keyword.control.from",
-    "keyword.control.import.ts",
-    "keyword.control.from.ts"
-  ],
-  "settings": {
-    "foreground": "#ff4fa3"
-  }
-},{
-  "name": "Export / Default keywords",
-  "scope": [
-    "keyword.control.export",
-    "keyword.control.default",
-    "keyword.control.export.ts",
-    "keyword.control.default.ts"
-  ],
-  "settings": {
-    "foreground": "#ff4fa3"
-  }
-},
+    {
+      "name": "Import / From / Flow keywords",
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from",
+        "keyword.control.flow",
+        "keyword.control.import.ts",
+        "keyword.control.from.ts"
+      ],
+      "settings": {
+        "foreground": "#d670d8"
+      }
+    },
+    {
+      "name": "Export / Default keywords",
+      "scope": [
+        "keyword.control.export",
+        "keyword.control.default",
+        "keyword.control.export.ts",
+        "keyword.control.default.ts"
+      ],
+      "settings": {
+        "foreground": "#d670d8"
+      }
+    },
     // {
     //   "name": "Operator, Misc",
     //   "scope": [
@@ -156,21 +159,21 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#ded6b9"
+        "foreground": "#d2c4a3"
       }
     },
     {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#c2ebff"
+        "foreground": "#b9e7f7"
       }
     },
     {
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#c2ebff"
+        "foreground": "#b9e7f7"
       }
     },
     // {
@@ -193,7 +196,7 @@
       "name": "Number",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#fab387"
+        "foreground": "#f19a62"
       }
     },
     {
@@ -208,7 +211,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#f0a7bf"
+        "foreground": "#fa9fbc"
       }
     },
     {
@@ -296,14 +299,14 @@
         "variable.function.constructor"
       ],
       "settings": {
-        "foreground": "#ded6b9"
+        "foreground": "#d2c4a3"
       }
     },
     {
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#c2ebff"
+        "foreground": "#b9e7f7"
       }
     },
     {
@@ -314,7 +317,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#c2ebff"
+        "foreground": "#b9e7f7"
       }
     },
     {
@@ -356,7 +359,7 @@
       "name": "Regular Expressions",
       "scope": ["string.regexp"],
       "settings": {
-        "foreground": "#f0a7bf"
+        "foreground": "#fa9fbc"
       }
     },
     {
